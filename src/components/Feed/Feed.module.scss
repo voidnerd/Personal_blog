@@ -66,12 +66,15 @@
 
     &-readmore {
       font-size: $typographic-base-font-size;
-      color: $color-primary;
+      color: $color-secondary;
 
       &:hover,
       &:focus {
         color: $color-primary;
         border-bottom: 1px solid $color-primary;
+        span {
+          margin-left: 2px;
+        }
       }
 
     }

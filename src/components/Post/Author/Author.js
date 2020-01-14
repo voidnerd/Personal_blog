@@ -10,16 +10,22 @@ const Author = () => {
   return (
     <div className={styles['author']}>
       <p className={styles['author__bio']}>
-        {author.bio}
-        <a
+       
+        All articles are written by   <a
+          href={getContactHref('twitter', author.contacts.twitter)}
+          rel="noopener noreferrer"
+          target="_blank"
+        >{author.name}</a>, Software Developer and Human.
+        {/* <a
           className={styles['author__bio-twitter']}
           href={getContactHref('twitter', author.contacts.twitter)}
           rel="noopener noreferrer"
           target="_blank"
         >
           <strong>{author.name}</strong> on Twitter
-        </a>
+        </a> */}
       </p>
+      
     </div>
   );
 };

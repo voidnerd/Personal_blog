@@ -1,12 +1,12 @@
 'use strict';
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
+  url: 'https://ndiecodes.com',
   pathPrefix: '/',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+  title: 'Blog by Ndie',
+  subtitle: 'Articles written by Ndifreke Friday on software development, things he working on or interested in.',
   copyright: '© All rights reserved.',
-  disqusShortname: '',
+  disqusShortname: 'ndiecodes',
   postsPerPage: 4,
   googleAnalyticsId: 'UA-73379983-2',
   useKatex: false,
@@ -16,28 +16,32 @@ module.exports = {
       path: '/'
     },
     {
+      label: 'tags',
+      path: '/tags'
+    },
+    {
       label: 'About me',
-      path: '/pages/about'
+      url: 'https://ndiecodes.github.io/'
     },
     {
       label: 'Contact me',
-      path: '/pages/contacts'
+      url: 'https://ndiecodes.github.io/contact'
     }
   ],
   author: {
-    name: 'John Doe',
+    name: 'Ndifreke Friday',
     photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    bio: 'Articles on software development, things I am working on or interested in.',
     contacts: {
       email: '',
-      facebook: '#',
-      telegram: '#',
-      twitter: '#',
-      github: '#',
+      facebook: 'ndiecodes',
+      telegram: 'ndiecodes',
+      twitter: 'ndiecodes',
+      github: 'ndiecodes',
       rss: '',
       vkontakte: '',
-      linkedin: '#',
-      instagram: '#',
+      linkedin: 'ndiecodes',
+      instagram: 'ndiecodes',
       line: '',
       gitlab: '',
       weibo: '',
