@@ -4,4 +4,7 @@
 .copyright {
   color: lighten($color-gray, 18%);
   font-size: $typographic-small-font-size;
+  @media only screen and (max-width: $layout-breakpoint-sm) {
+    display: none;
+  }
 }

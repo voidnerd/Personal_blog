@@ -14,6 +14,11 @@
     margin: 10px -3px;
     width: 140px;
 
+    @media only screen and (max-width: $layout-breakpoint-sm) {
+      justify-content: center;
+      width: 100%;
+    }
+
     &-item {
       padding: 0;
       margin: 4px;

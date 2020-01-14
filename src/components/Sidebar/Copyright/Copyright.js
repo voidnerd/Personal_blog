@@ -8,7 +8,7 @@ type Props = {
 
 const Copyright = ({ copyright }: Props) => (
   <div className={styles['copyright']}>
-    {copyright}
+    {new Date().getFullYear()} {copyright}
   </div>
 );
 
