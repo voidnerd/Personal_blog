@@ -23,10 +23,6 @@ module.exports = {
       label: 'About me',
       url: 'https://ndiecodes.github.io/'
     },
-    {
-      label: 'Contact me',
-      url: 'https://ndiecodes.github.io/contact'
-    }
   ],
   author: {
     name: 'Ndifreke Friday',
