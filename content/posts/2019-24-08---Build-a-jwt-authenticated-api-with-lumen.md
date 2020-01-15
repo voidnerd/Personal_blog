@@ -4,11 +4,13 @@ date: "2019-08-24T22:40:32.169Z"
 template: "post"
 draft: false
 slug: "build-a-jwt-authenticated-api-with-lumen"
-category: "Web Developement"
+category: "API"
 tags:
   - "Laravel"
   - "PHP"
   - "API"
+  - "JWT"
+  - "Lumen"
   - "Web Development"
 description: In this tutorial, we will be using lumen; a super-fast micro-framework by laravel to build a simple and secure REST API. At the end of this tutorial, you should be able to build production-ready APIs. Let's get started!
 socialImage: "https://res.cloudinary.com/iamndie/image/upload/v1578778835/Blog/lumen.png"
