@@ -4,7 +4,7 @@ module.exports = {
   url: 'https://ndiecodes.com',
   pathPrefix: '/',
   title: 'Blog by Ndie',
-  subtitle: 'Articles written by Ndifreke Friday on software development; things he is working on or interested in.',
+  subtitle: 'Articles on Software Development. Written by Ndifreke Friday, Software Developer and  Human',
   copyright: '© All rights reserved.',
   disqusShortname: 'ndiecodes',
   postsPerPage: 4,
