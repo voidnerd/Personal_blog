@@ -4,7 +4,7 @@ date: "2019-08-24T22:40:32.169Z"
 template: "post"
 draft: false
 slug: "build-a-jwt-authenticated-api-with-lumen"
-category: "API"
+category: "PHP"
 tags:
   - "Laravel"
   - "PHP"
