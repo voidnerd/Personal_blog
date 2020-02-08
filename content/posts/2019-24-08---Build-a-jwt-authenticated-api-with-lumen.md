@@ -56,6 +56,11 @@ Now run this command to create the lumen project
 $ lumen new auth-app
 ```
 
+UPDATE: To create a specific  version of lumen project(v5.8), use this command instead: 
+```
+$ composer create-project laravel/lumen auth-app "5.8.*"
+```
+
 Enter the project folder
 ```
 $ cd auth-app
