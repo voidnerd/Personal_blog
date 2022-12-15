@@ -9,8 +9,8 @@ module.exports = {
   copyright: "© All rights reserved.",
   disqusShortname: "ndiecodes",
   postsPerPage: 4,
-  googleAnalyticsId: "UA-156217691-1",
-  googleAdsenseId: "ca-pub-8436677894143158",
+  googleAnalyticsId: "G-DMQ36V2XRB",
+  googleAdsenseId: "",
   useKatex: false,
   menu: [
     {
