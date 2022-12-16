@@ -32,7 +32,6 @@ const useSiteMetadata = () => {
             menu {
               label
               path
-              url
             }
             url
             title
