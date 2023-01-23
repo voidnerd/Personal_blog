@@ -12,7 +12,7 @@ description: This brings us back to the relationship between streams and EventEm
 ---
 
 
-Most people encounter nodejs streams through `fs.createReadStream` or `fs.createWriteStream`. Maybe you did not bother to read to documentation(like me) or the layered information(`fs -> stream  -> EventEmitter`) is why you missed this very important line (All [streams](https://nodejs.org/api/stream.html) are instances of [EventEmitter](https://nodejs.org/api/events.html#class-eventemitter)) in the documentation.
+Most people encounter nodejs streams through `fs.createReadStream` or `fs.createWriteStream`. Maybe you did not bother to read the documentation(like me) or the layered information(`fs -> stream  -> EventEmitter`) is why you missed this very important line (All [streams](https://nodejs.org/api/stream.html) are instances of [EventEmitter](https://nodejs.org/api/events.html#class-eventemitter)) in the documentation.
 
 We should discuss the relationship between streams and the EventEmitter class, but first, let’s look at this code that throws an annoying error.
 
